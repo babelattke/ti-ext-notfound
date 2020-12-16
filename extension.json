@@ -1,0 +1,16 @@
+{
+  "code": "babel.notfound",
+  "name": "404 Error Page",
+  "description": "404 Error page customization extension.",
+  "version": "v0.0.1",
+  "author": "Babelattke",
+  "icon": {
+    "class": "fas fa-exclamation-triangle",
+    "color": "#FFF",
+    "backgroundColor": "#EF233C"
+  },
+  "homepage": "https://github.com/babelattke/ti-ext-notfound",
+  "require": {    
+    "igniter.local": "*"    
+  }
+}
