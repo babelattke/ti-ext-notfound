@@ -6,7 +6,7 @@
   </a>
 </p> -->
 
-## 404 Page | TastyIgniter Extension
+# 404 Page | TastyIgniter Extension
 
 Name: 404 Error Page Customization 
 Version: 0.0.1
@@ -15,40 +15,52 @@ Components: NotFoundComponent
 This extension creates a custom page in your theme to be displayed when 404 error code detected.
 
 ### Installation
-1. /extensions/babel
+Extension files path: _/extensions/babel/notfound_
 
-Go to Admin -> System -> Extensions -> 404 Error Page
+<p align="center">
+    <img src="images/extemsion_list.png">  
+</p> 
+
+Next, go to Admin -> System -> Extensions -> 404 Error Page
 
 ### Usage
 
 Go to Admin -> System -> Settings -> 404 Error Page Settings
 
+<p align="center">
+    <img src="images/admin_settings.png">  
+</p> 
+
 ## Configurable Elements
 
-# Status
+<p align="center">
+    <img src="images/admin_settings_edit.png" width="300" height="300">  
+</p> 
+
+#### Status
 Enabled -> Create the page in themes/_pages folder
 Disabled -> Delete the page in themes/_pages folder
 
-# Image
+##### Image
 Choose or upload an image from Media Manager tool. (Optional) 
 
-# Title
+##### Title
 
-# Content
+##### Content
 Content of the message. It does accept HTML code.
 
-# Button Text
+##### Button Text
 
-# Button Text Color
+##### Button Text Color
 HEX format color picker
 
-# Button Color
+##### Button Color
 HEX format color picker
 
-# Button URL
+##### Button URL
 Home page by default (/)
 
-# Layout (Pending)
+##### Layout (Pending)
 Currently it uses *static* layout. You can change this on the newly created page. Next version will let you choose from your active theme layouts.
 
 <!-- CONTACT -->
@@ -57,3 +69,8 @@ Currently it uses *static* layout. You can change this on the newly created page
 Mauricio Lattke - mauricio.lattke@gmail.com
 
 Project Link: [https://github.com/babelattke/ti-ext-notfound](https://github.com/babelattke/ti-ext-notfound)
+
+
+<p align="center">
+    <img src="images/demo_view.png" width="300" height="300">  
+</p> 
