@@ -18,7 +18,7 @@ This extension creates a custom page in your theme to be displayed when 404 erro
 Extension files path: _/extensions/babel/notfound_
 
 <p align="center">
-    <img src="images/extension_list.png">  
+    <img src="https://github.com/babelattke/ti-ext-notfound/raw/main/images/extension_list.png?raw=true">  
 </p> 
 
 Next, go to Admin -> System -> Extensions -> 404 Error Page
@@ -28,13 +28,13 @@ Next, go to Admin -> System -> Extensions -> 404 Error Page
 Go to Admin -> System -> Settings -> 404 Error Page Settings
 
 <p align="center">
-    <img src="images/admin_settings.png">  
+    <img src="https://github.com/babelattke/ti-ext-notfound/raw/main/images/admin_settings.png">  
 </p> 
 
 ## Configurable Elements
 
 <p align="center">
-    <img src="images/admin_settings_edit.png" width="600" height="400">  
+    <img src="https://github.com/babelattke/ti-ext-notfound/raw/main/images/admin_settings_edit.png" width="600" height="400">  
 </p> 
 
 #### Status
@@ -72,5 +72,5 @@ Project Link: [https://github.com/babelattke/ti-ext-notfound](https://github.com
 
 
 <p align="center">
-    <img src="images/demo_view.png" width="600" height="400">  
+    <img src="https://github.com/babelattke/ti-ext-notfound/raw/main/images/demo_view.png" width="600" height="400">  
 </p> 

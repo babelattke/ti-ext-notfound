@@ -57,20 +57,20 @@ class Extension extends BaseExtension
 
             /** @var \System\Models\Themes_model */
             foreach ($themes as $theme) {
-                $themeDirectory = theme_path($theme->themeClass->getDirName());
+                //$themeDirectory = theme_path($theme->themeClass->getDirName());
 
-                $pagesPath = $themeDirectory . '/_pages/not_found.blade.php';
+                //$pagesPath = $themeDirectory . '/_pages/not_found.blade.php';
                 
-                File::copy(__DIR__.'/views/not_found.blade.php', $pagesPath);
-                $pagesAdded[] = $pagesPath;
+                //File::copy(__DIR__.'/views/not_found.blade.php', $pagesPath);
+                //$pagesAdded[] = $pagesPath;
 
             }  
         }elseif (!$isEnabled){
 
             foreach ($themes as $theme) {
-                $themeDirectory = theme_path($theme->themeClass->getDirName());                
+                //$themeDirectory = theme_path($theme->themeClass->getDirName());                
                 
-                File::delete( $themeDirectory . '/_pages/not_found.blade.php' );
+                //File::delete( $themeDirectory . '/_pages/not_found.blade.php' );
             }
         
         }
